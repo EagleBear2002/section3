@@ -12,12 +12,12 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = ConcertConfig.class)
 public class EncoreIntroducerTest {
-    @Autowired
-    private Performance musicPerformance;
-
-    @Test
-    public void testEncore() {
-        Encoreable encoreable = (Encoreable) musicPerformance; //使用方法
-        encoreable.performEncore();
-    }
+	@Autowired
+	private Performance musicPerformance;
+	
+	@Test
+	public void testEncore() {
+		Encoreable encoreable = (Encoreable) musicPerformance; //使用方法
+		encoreable.performEncore();
+	}
 }

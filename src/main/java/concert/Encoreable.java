@@ -1,5 +1,5 @@
 package concert;
 
 public interface Encoreable {
-    void performEncore();
+	void performEncore();
 }
